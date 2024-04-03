@@ -1,3 +1,18 @@
-h1 {
-  background-color: rgb(201, 163, 9);
+body {
+  background-color: brown;
+  text-align: center;
+}
+img {
+  width: 400px;
+  length: 300px;
+  height: 250px;
+  border: 4px solid #000;
+  margin: auto;
+  padding-left: 0px;
+}
+table {
+  width: 100%;
+}
+ul {
+  min-height: 70px;
 }
