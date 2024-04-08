@@ -3,7 +3,7 @@ body {
   text-align: center;
   font-size: 20px;
 }
-img {
+#homeImg {
   width: 400px;
   length: 300px;
   height: 250px;
