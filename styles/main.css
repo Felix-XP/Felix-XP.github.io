@@ -16,4 +16,5 @@ table {
 }
 ul {
   min-height: 70px;
+  list-style-type: none;
 }
