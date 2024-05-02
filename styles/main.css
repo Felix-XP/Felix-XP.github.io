@@ -2,7 +2,16 @@ body {
   background-color: brown;
   text-align: center;
   font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 #homeImg {
   width: 400px;
   length: 300px;
@@ -13,8 +22,45 @@ body {
 }
 table {
   width: 100%;
+  margin: 0 auto;
 }
 ul {
   min-height: 70px;
   list-style-type: none;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+p,
+ul {
+  text-align: justify;
+  margin: 10px;
+}
+
+table th {
+  text-align: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p,
+  ul {
+    font-size: 14px;
+  }
+  table {
+    width: 100%;
+  }
 }
